@@ -1,0 +1,28 @@
+2024-11-17T18:41:21.132+05:30  INFO 15172 --- [Tcp-Client-Server] [main] t.R.TcpClientServerConnectionApplication : Starting TcpClientServerConnectionApplication using Java 17.0.12 with PID 15172 (D:\JJ\vv\sample - 1\target\classes started by jeyar in D:\JJ\vv\sample - 1)
+2024-11-17T18:41:21.146+05:30 DEBUG 15172 --- [Tcp-Client-Server] [main] t.R.TcpClientServerConnectionApplication : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-11-17T18:41:21.151+05:30  INFO 15172 --- [Tcp-Client-Server] [main] t.R.TcpClientServerConnectionApplication : No active profile set, falling back to 1 default profile: "default"
+2024-11-17T18:41:25.404+05:30  INFO 15172 --- [Tcp-Client-Server] [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080 (http)
+2024-11-17T18:41:25.439+05:30  INFO 15172 --- [Tcp-Client-Server] [main] t.R.TcpClientServerConnectionApplication : Started TcpClientServerConnectionApplication in 5.464 seconds (process running for 6.398)
+2024-11-17T18:41:25.503+05:30  INFO 15172 --- [Tcp-Client-Server] [main] c.t.R.service.server.ReactiveTcpServer   : TCP Server started on port: 5000
+2024-11-17T18:41:25.577+05:30  INFO 15172 --- [Tcp-Client-Server] [reactor-tcp-nio-2] c.t.R.config.TcpConfig                   : Client connected to server.
+2024-11-17T18:41:25.601+05:30  INFO 15172 --- [Tcp-Client-Server] [reactor-tcp-nio-2] c.t.R.service.client.ReactiveTcpClient   : Client: Message sent
+2024-11-17T18:41:25.603+05:30  INFO 15172 --- [Tcp-Client-Server] [reactor-tcp-nio-2] c.t.R.runner.ClientRunner                : Server responded: Hello from client!
+2024-11-17T18:41:25.605+05:30  INFO 15172 --- [Tcp-Client-Server] [reactor-tcp-nio-4] c.t.R.service.server.ReactiveTcpServer   : Server received: Hello from client!
+2024-11-17T18:41:25.606+05:30  INFO 15172 --- [Tcp-Client-Server] [reactor-tcp-nio-2] c.t.R.config.TcpConfig                   : Client received: Server Acknowledged: Hello from client!
+2024-11-17T18:42:25.167+05:30  INFO 14940 --- [Tcp-Client-Server] [main] t.R.TcpClientServerConnectionApplication : Starting TcpClientServerConnectionApplication using Java 17.0.12 with PID 14940 (D:\JJ\vv\sample - 1\target\classes started by jeyar in D:\JJ\vv\sample - 1)
+2024-11-17T18:42:25.177+05:30 DEBUG 14940 --- [Tcp-Client-Server] [main] t.R.TcpClientServerConnectionApplication : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-11-17T18:42:25.179+05:30  INFO 14940 --- [Tcp-Client-Server] [main] t.R.TcpClientServerConnectionApplication : No active profile set, falling back to 1 default profile: "default"
+2024-11-17T18:42:28.465+05:30  INFO 14940 --- [Tcp-Client-Server] [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080 (http)
+2024-11-17T18:42:28.495+05:30  INFO 14940 --- [Tcp-Client-Server] [main] t.R.TcpClientServerConnectionApplication : Started TcpClientServerConnectionApplication in 4.37 seconds (process running for 5.17)
+2024-11-17T18:42:28.505+05:30  INFO 14940 --- [Tcp-Client-Server] [main] c.t.R.service.server.ReactiveTcpServer   : TCP Server started on port: 5000
+2024-11-17T18:42:32.610+05:30  INFO 14940 --- [Tcp-Client-Server] [reactor-tcp-nio-3] c.t.R.config.TcpConfig                   : Client connected to server.
+2024-11-17T18:42:32.641+05:30  INFO 14940 --- [Tcp-Client-Server] [reactor-tcp-nio-3] c.t.R.service.client.ReactiveTcpClient   : Client: Message sent
+2024-11-17T18:42:32.641+05:30  INFO 14940 --- [Tcp-Client-Server] [reactor-tcp-nio-3] c.t.R.runner.ClientRunner                : Server responded: Hello from client!
+2024-11-17T18:42:32.642+05:30  INFO 14940 --- [Tcp-Client-Server] [reactor-tcp-nio-4] c.t.R.service.server.ReactiveTcpServer   : Server received: Hello from client!
+2024-11-17T18:42:32.644+05:30  INFO 14940 --- [Tcp-Client-Server] [reactor-tcp-nio-3] c.t.R.config.TcpConfig                   : Client received: Server Acknowledged: Hello from client!
+2024-11-17T18:42:50.426+05:30  INFO 14940 --- [Tcp-Client-Server] [reactor-tcp-nio-4] c.t.R.service.server.ReactiveTcpServer   : Server received: hi
+2024-11-17T18:42:50.426+05:30  INFO 14940 --- [Tcp-Client-Server] [reactor-http-nio-2] c.t.R.service.client.ReactiveTcpClient   : Client: Message sent
+2024-11-17T18:42:50.428+05:30  INFO 14940 --- [Tcp-Client-Server] [reactor-tcp-nio-3] c.t.R.config.TcpConfig                   : Client received: Server Acknowledged: hi
+2024-11-17T20:29:58.576+05:30  INFO 14940 --- [Tcp-Client-Server] [reactor-tcp-nio-3] c.t.R.service.client.ReactiveTcpClient   : Client: Message sent
+2024-11-17T20:29:58.576+05:30  INFO 14940 --- [Tcp-Client-Server] [reactor-tcp-nio-4] c.t.R.service.server.ReactiveTcpServer   : Server received: hi
+2024-11-17T20:29:58.579+05:30  INFO 14940 --- [Tcp-Client-Server] [reactor-tcp-nio-3] c.t.R.config.TcpConfig                   : Client received: Server Acknowledged: hi

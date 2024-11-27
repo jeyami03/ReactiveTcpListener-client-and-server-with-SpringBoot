@@ -29,7 +29,7 @@ public class TCPClientHandler {
     }
 
 
-    private Flux<String> processServerMessages(Connection connection) {
+    public Flux<String> processServerMessages(Connection connection) {
         return connection.inbound().receive().asString().doOnNext(message -> {
             logger.info("Client received message: {}", message);
         }).doOnError(error -> {
